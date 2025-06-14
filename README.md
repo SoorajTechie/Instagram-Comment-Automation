@@ -30,8 +30,8 @@ cd instagram-comment-bot
 
 ### Configuration ⚡###
 ***Edit the following variables in the script***
-    USERNAME = "your_instagram_username"
-    PASSWORD = "your_instagram_password"
-    POST_URL = "https://www.instagram.com/p/EXAMPLE_POST/"  
-    COMMENT_TEXT = "Your comment text"
-    COMMENT_COUNT = 10  # Number of comments to post
+USERNAME = "your_instagram_username"
+PASSWORD = "your_instagram_password"
+POST_URL = "https://www.instagram.com/p/EXAMPLE_POST/"  
+COMMENT_TEXT = "Your comment text"
+COMMENT_COUNT = 10  # Number of comments to post
