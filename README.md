@@ -29,7 +29,7 @@ cd instagram-comment-bot
 
 
 ### Configuration ⚡###
-***Edit the following variables in the script***
+*** Edit the following variables in the script ***
 USERNAME = "your_instagram_username"
 PASSWORD = "your_instagram_password"
 POST_URL = "https://www.instagram.com/p/EXAMPLE_POST/"  
