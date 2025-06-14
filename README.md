@@ -19,17 +19,18 @@ A Python script using Selenium to automate comments on Instagram posts. This too
 
 ## Installation ⚙️
 
-*** 1. Clone the repository***
+1. Clone the repository
 ```bash
 git clone https://github.com/SoorajTechie/Instagram-Comment-Automation.git
 cd instagram-comment-bot
 ```
-*** 2. Install dependencies:
+2. Install dependencies:
    pip install selenium
 
 
 ### Configuration ⚡###
-*** Edit the following variables in the script ***
+Edit the following variables in the script 
+
 USERNAME = "your_instagram_username"
 PASSWORD = "your_instagram_password"
 POST_URL = "https://www.instagram.com/p/EXAMPLE_POST/"  
