@@ -4,10 +4,10 @@ from selenium.webdriver.common.keys import Keys
 import time
 import random
 
-USERNAME = "username"
-PASSWORD = "password"
-POST_URL = "POST_URL"  
-COMMENT_TEXT = "Awesome"
+USERNAME = "username" #add username
+PASSWORD = "password" #add password
+POST_URL = "POST_URL"  #add post url
+COMMENT_TEXT = ["wow","nice","cool","perfect","yoo"] #take random comment for avoid bot detection
 COMMENT_COUNT = 25 
 
 driver = webdriver.Chrome()
@@ -32,7 +32,7 @@ try:
             comment_box.click()
             time.sleep(2)
 
-            comment_box.send_keys(COMMENT_TEXT)
+            comment_box.send_keys(randome.choice(COMMENT_TEXT))
             time.sleep(1)
 
             comment_box.send_keys(Keys.RETURN) #avoiding bot detection
